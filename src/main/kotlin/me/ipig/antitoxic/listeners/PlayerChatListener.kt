@@ -14,7 +14,6 @@ class PlayerChatListener(private val config: FileConfiguration):Listener {
                 event.player.sendMessage(config.getString("response"))
                 event.isCancelled = true
                 break
-
             }
         }
     }
